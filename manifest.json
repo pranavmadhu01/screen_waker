@@ -1,0 +1,9 @@
+{
+  "name": "wakeLock_extension",
+  "description":"this is a extension to wake up the screen",
+  "version":"1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
