@@ -12,9 +12,17 @@ body {
   gap: 20px;
   padding: 20px;
 }
-#wakeLockActive{
-  color:green;
+#wakeLockActive {
+  width: max-content;
+  color: green;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
 }
-#wakeLockRelease{
-  color:red;
+#wakeLockRelease {
+  width: max-content;
+  color: red;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
 }

@@ -4,7 +4,9 @@ let wakeLockRelease = document.getElementById("wakeLockRelease");
 wakeLockActive.addEventListener("click", async () => {
   console.log("heei");
   try {
-    wakeLock = await navigator.wakeLock.request("screen");
+    wakeLock = await navigator.wakeLock.request("screen").then(()=>{
+      alert("You have turned on the wakeLock");
+    });
   } catch (err) {
     console.log(`${err.name}, ${err.message}`);
   }
